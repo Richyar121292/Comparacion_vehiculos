@@ -23,14 +23,6 @@ st.header('Comparador de vehículos')
 # Mostrar el DataFrame
 st.write(car_data)
 
-# Inicializar el contador de likes en session_state
-if 'likes' not in st.session_state:
-    st.session_state.likes = 0
-
-# Botón de like
-if st.button('👍 Like'):
-    st.session_state.likes += 1
-
 # Selector de marca en orden alfabético
 brands = sorted(car_data['model'].unique())
 selected_brand = st.selectbox('Selecciona una marca', brands)
