@@ -6,7 +6,7 @@ import streamlit as st
 st.title('Comparador de Vehículos')
 st.markdown("""
 Esta aplicación permite comparar vehículos anunciados en los Estados Unidos. Puedes filtrar los vehículos por marca, tipo, condición , precio, año del modelo y tipo de combustible. 
-Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión.
+Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión. Se compararon 51,125 vehículos.
 """)
 
 # Cargar los datos
