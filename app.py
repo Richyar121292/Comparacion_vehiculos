@@ -5,11 +5,12 @@ import streamlit as st
 # Descripción de la aplicación
 st.title('Comparador de Vehículos')
 st.markdown("""
-Esta aplicación permite comparar vehículos anunciados en los Estados Unidos. Puedes filtrar los vehículos por marca, tipo, condiicón , precio, año del modelo y tipo de combustible. Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión.
+Esta aplicación permite comparar vehículos anunciados en los Estados Unidos. Puedes filtrar los vehículos por marca, tipo, condición , precio, año del modelo y tipo de combustible. 
+Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión.
 """)
 
 # Cargar los datos
-car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos\vehicles_us.csv')
+car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos')
 
 # Rellenar la columna 'odometer' con 'new' donde el valor es 0
 car_data.loc[car_data['odometer'] == 0, 'odometer'] = 'new'
@@ -22,6 +23,14 @@ st.header('Comparador de vehículos')
 
 # Mostrar el DataFrame
 st.write(car_data)
+
+# Inicializar el contador de likes en session_state
+if 'likes' not in st.session_state:
+    st.session_state.likes = 0
+
+# Botón de like
+if st.button('👍 Like'):
+    st.session_state.likes += 1
 
 # Selector de marca en orden alfabético
 brands = sorted(car_data['model'].unique())
@@ -83,5 +92,5 @@ st.write('Datos filtrados por marca, estado del vehículo, rango de precios y ot
 # Descripción estadística
 if st.checkbox('Mostrar descripción estadística'):
     st.write(filtered_data.describe())
-
+    
 #subir a render
