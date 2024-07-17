@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import os
 
 # Descripción de la aplicación
 st.title('Comparador de Vehículos')
