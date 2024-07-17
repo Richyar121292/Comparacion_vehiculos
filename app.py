@@ -20,6 +20,15 @@ car_data.dropna(inplace=True)
 # Crear un encabezado
 st.header('Comparador de vehículos')
 
+ # Inicializar el contador de likes en session_state
+if 'likes' not in st.session_state:
+            st.session_state.likes = 0
+
+        # Botón de like
+if st.button('👍 Like'):
+    st.session_state.likes += 1
+    st.write(f'Likes: {st.session_state.likes}')
+        
 # Mostrar el DataFrame
 st.write(car_data)
 
