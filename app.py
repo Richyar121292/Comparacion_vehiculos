@@ -92,3 +92,4 @@ st.write('Datos filtrados por marca, estado del vehículo, rango de precios y ot
 if st.checkbox('Mostrar descripción estadística'):
     st.write(filtered_data.describe())
 
+#agregué nuevamente el df
