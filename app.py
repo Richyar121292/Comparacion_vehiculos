@@ -83,3 +83,5 @@ st.write('Datos filtrados por marca, estado del vehículo, rango de precios y ot
 # Descripción estadística
 if st.checkbox('Mostrar descripción estadística'):
     st.write(filtered_data.describe())
+
+#subir a render
