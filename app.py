@@ -10,7 +10,7 @@ Además, puedes visualizar distribuciones y relaciones entre variables mediante 
 """)
 
 # Cargar los datos
-car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos\vehicles_us.csv')
+car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos\vehicles_us')
 # Rellenar la columna 'odometer' con 'new' donde el valor es 0
 car_data.loc[car_data['odometer'] == 0, 'odometer'] = 'new'
 
