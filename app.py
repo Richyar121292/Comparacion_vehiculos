@@ -10,7 +10,7 @@ Además, puedes visualizar distribuciones y relaciones entre variables mediante 
 """)
 
 # Cargar los datos
-car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos')
+car_data = pd.read_csv(r'C:\Users\Jube\vehicles_env\Comparacion_vehiculos\vehicles_us.csv')
 
 # Rellenar la columna 'odometer' con 'new' donde el valor es 0
 car_data.loc[car_data['odometer'] == 0, 'odometer'] = 'new'
@@ -92,5 +92,4 @@ st.write('Datos filtrados por marca, estado del vehículo, rango de precios y ot
 # Descripción estadística
 if st.checkbox('Mostrar descripción estadística'):
     st.write(filtered_data.describe())
-    
-#subir a render
+
