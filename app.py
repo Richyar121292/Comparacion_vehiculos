@@ -5,8 +5,8 @@ import streamlit as st
 # Descripción de la aplicación
 st.title('Comparador de Vehículos')
 st.markdown("""
-Esta aplicación permite comparar vehículos anunciados en los Estados Unidos. Puedes filtrar los vehículos por marca, tipo, condición , precio, año del modelo y tipo de combustible. 
-Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión. Se compararon 51,125 vehículos.
+Esta aplicación permite comparar 51,125 vehículos anunciados en Estados Unidos. Puedes filtrar los autos por marca, tipo, condición , precio, año del modelo y tipo de combustible. 
+Además, puedes visualizar distribuciones y relaciones entre variables mediante histogramas y diagramas de dispersión.
 """)
 
 # Cargar los datos
@@ -19,7 +19,7 @@ car_data.loc[car_data['odometer'] == 0, 'odometer'] = 'new'
 car_data.dropna(inplace=True)
 
 # Crear un encabezado
-st.header('Comparador de vehículos')
+st.header('Información de todos los vehículos')
 
  # Inicializar el contador de likes en session_state
 if 'likes' not in st.session_state:
