@@ -1,3 +1,2 @@
-python
 pandas
 streamlit
