@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 absl-py==2.1.0
 aext-assistant @ file:///C:/b/abs_98xvdek9qa/croot/aext-assistant_1734644152369/work
 aext-assistant-server @ file:///C:/b/abs_93twy7n40b/croot/aext-assistant-server_1734640405857/work
@@ -405,7 +404,6 @@ zict @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zict_169954
 zipp @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zipp_1707493775475/work
 zope.interface @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zope.interface_1699497164709/work
 zstandard @ file:///C:/b/abs_82dff2ths3/croot/zstandard_1728569207191/work
-=======
 absl-py==2.1.0
 aext-assistant @ file:///C:/b/abs_98xvdek9qa/croot/aext-assistant_1734644152369/work
 aext-assistant-server @ file:///C:/b/abs_93twy7n40b/croot/aext-assistant-server_1734640405857/work
@@ -811,5 +809,4 @@ yarl @ file:///C:/b/abs_00rcuicx5k/croot/yarl_1726015884215/work
 zict @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zict_1699548979005/work
 zipp @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zipp_1707493775475/work
 zope.interface @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zope.interface_1699497164709/work
-zstandard @ file:///C:/b/abs_82dff2ths3/croot/zstandard_1728569207191/work
->>>>>>> e5734826676a9f9c3ca69711a7ee0ceaaaa134e6
+zstandard @ file:///C:/b/abs_82dff2ths3/croot/zstandard_1728569207191/worke5734826676a9f9c3ca69711a7ee0ceaaaa134e6
