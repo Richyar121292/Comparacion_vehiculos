@@ -1,6 +1,36 @@
 # Comparacion_vehiculos
-Se compararon 51,525 vehículos de una base da datos estadounidense enfocada en venta y estado de los autos.
-La aplicación tiene el objetivo de proporcionar al usuario estadística desciptiva de la base de datos por medio de una interfaz interactiva en un dominio de acceso público
 
-Link de la aplicación
+<h3> 🚘 Comparador de Vehículos 🚘  </h3> 
+<br>
+
+<h3> 📌 Descripción  </h3> 
+
+Una aplicación que permite analizar y comparar **51,125 vehículos** anunciados en Estados Unidos.  
+Con **filtros avanzados** y **gráficos interactivos**, puedes explorar opciones y descubrir tendencias en el mercado automotriz.  
+<br>
+
+<h3>  🔍 Características principales  </h3> 
+
+✅ **Búsqueda personalizada**: Filtra vehículos por **marca, tipo, condición, precio, año del modelo y tipo de combustible**.  
+📊 **Visualización intuitiva**: Analiza datos con **histogramas y diagramas de dispersión**.  
+📄 **Datos detallados**: Accede a información completa sobre cada vehículo.  
+<br>
+
+<h3> 🚀 Instalación </h3>
+
+- Clona el repositorio:
+git clone https://github.com/Richyar121292/Comparacion_vehiculos.git
+- Instala las dependencias:
+pip install -r requirements.txt
+- Ejecuta el script principal:
+python main.py
+<br>
+
+
+<h3> 📊 Link de la aplicación </h3>
 https://comparacion-vehiculos-final.onrender.com/
+<br>
+
+
+<h3> 📌 Contribuciones </h3>
+Si deseas mejorar el modelo o agregar nuevas funcionalidades, abre un Issue o envía un Pull Request.
