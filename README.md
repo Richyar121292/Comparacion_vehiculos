@@ -33,15 +33,12 @@ git clone https://github.com/Richyar121292/Comparacion_vehiculos.git
 pip install -r requirements.txt
 - Ejecuta el script principal:
 python main.py
-
-<br>
+<br><br>
 
 
 <h3> 📊 Link de la aplicación </h3>
 https://comparacion-vehiculos-final.onrender.com/
-
-<br>
-
+<br><br>
 
 <h3> 📌 Contribuciones </h3>
 Si deseas mejorar el modelo o agregar nuevas funcionalidades, abre un Issue o envía un Pull Request.
