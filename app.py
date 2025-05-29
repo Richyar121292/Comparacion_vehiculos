@@ -13,6 +13,7 @@ Además, puedes visualizar distribuciones y relaciones entre variables mediante 
 car_data = pd.read_csv('vehicles_us.csv')
 file_path = 'vehicles_us.csv'
 # Rellenar la columna 'odometer' con 'new' donde el valor es 0
+car_data['odometer'] = car_data['odometer'].astype(str)
 car_data.loc[car_data['odometer'] == 0, 'odometer'] = 'new'
 
 # Eliminar las filas con celdas vacías
